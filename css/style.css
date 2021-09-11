@@ -1,0 +1,189 @@
+/* Основной цвет текста  #212121 
+   Studio   #FFFFFF;
+второстепенный цвет - #757575;
+  адрес background: #FFFFFF;
+ ссылки -  #2196F3;  
+  цвет фона  "Наша команда" #F5F4FA;
+  */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --primary-bg-color: #2f303a;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+ul.list {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*logo*/
+span {
+  color: var(--accent-color);
+}
+.logo {
+  margin-right: 93px;
+
+  color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--title-text-color);
+}
+
+/* Site nav */
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav {
+  display: flex;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.site-nav .link {
+  display: block;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link current {
+  color: var(--accent-color);
+}
+
+/*aut-nav*/
+
+.aut-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.aut-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.aut-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.aut-nav .link:hover,
+.aut-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/*Футер*/
+.footer {
+  background-color: var(--primary-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.adress {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-white-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.adress .logo {
+  color: var(--primary-white-color);
+}
+
+.adress .logo:hover,
+.adress .logo:focus {
+  color: var(--accent-color);
+}
+
+.adress .link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  padding-bottom: 9px;
+}
+
+.adress .link:hover,
+.adress .link:focus {
+  color: var(--accent-color);
+}
+
+.adress-link {
+  color: var(--primary-white-color);
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+.footer-list {
+  padding: 0px;
+  list-style: none;
+  height: 81px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+}
